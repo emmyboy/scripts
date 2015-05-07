@@ -3,7 +3,7 @@
 CNAME="media.scores.com"
 HOST_LIST=( $( echo media-node{508,525,532,533,538,546,549,550,551,552,553}.scores.com ) )
 TARGET_RUN_COUNT=5000
-PORT=8001
+PORT=8008
 
 CURL_OUT="%{http_code} %{time_namelookup} %{time_connect} %{time_appconnect} %{time_pretransfer} %{time_redirect} %{time_starttransfer} %{time_total}"
 
