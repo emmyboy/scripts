@@ -27,9 +27,9 @@ describe('Install Test Suite', function () {
             'unit1-test1.sp1.medium.com':
                 ['unit1-test1-lh1.sp1.medium.com',
                     'unit1-test1-lh2.sp1.medium.com'],
-            'unit1-test2.sp1.medium.yahoo.com':
+            'unit1-test2.sp1.medium.com':
                 ['unit1-test2-lh1.sp1.medium.com',
-                    'unit1-test2-lh2.sp1.medium.yahoo.com']
+                    'unit1-test2-lh2.sp1.medium.com']
         };
         logger = {
             verbose: true,
